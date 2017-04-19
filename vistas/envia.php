@@ -17,11 +17,11 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@conadsur.com");
+$mail->addAddress("info@alianconsultores.com");
 
 $mail->isHTML(true);
 
-$mail->Subject = "Cotización CONADSUR";
+$mail->Subject = "Cotización Alianconsultores";
 $mail->Body = "
               <b>Telefono: </b>.$telefono.<br/>
               <b>Comentario: </b>.$comentario.<br/>";
