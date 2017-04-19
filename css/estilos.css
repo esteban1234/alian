@@ -473,3 +473,305 @@ footer p{
     margin-top: 2%;
     color: #fff;
 }
+
+/*---------------------nosotros--------------*/
+.bannerq{
+  /*outline: 2px red solid;*/
+   position: relative;
+   width: 100%;
+    height: 407px;
+    background: url('../img/consultores.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.bannerq p{
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    width: 15%;
+    /*margin: 0 auto;*/
+    margin-left: 16%;
+    margin-top: 10%;
+    padding: 10px 0px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+}
+.contendatos{
+  /*outline: 2px red solid;*/
+  width: 100%;
+}
+.icono{
+  text-align: center;
+}
+.icono i{
+  color: #97D4E6;
+  font-weight: bold;
+}
+.cuadros:hover .icono i{
+  color: #000;
+}
+
+.bannervalores{
+  /*outline: 2px red solid;*/
+  position: relative;
+   width: 100%;
+    height: 407px;
+    background: url('../img/valores8.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.fondo{
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    /*padding: 15px;*/
+}
+.icono2{
+  text-align: center;
+}
+.icono2 i{
+  color: #fff;
+  font-weight: bold;
+}
+.cuadros:hover .icono2 i{
+  
+  color: #97D4E6;
+}
+.color{
+  color: #fff;
+  font-weight: bold;
+}
+/*---------------------servicios--------------*/
+.banners{
+  /*outline: 2px red solid;*/
+   position: relative;
+   width: 100%;
+    height: 407px;
+    background: url('../img/bannerser.png') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.banners p{
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    width: 15%;
+    /*margin: 0 auto;*/
+    margin-left: 16%;
+    margin-top: 10%;
+    padding: 10px 0px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+/*---------------------contacto--------------*/
+.bannerc{
+  /*outline: 2px red solid;*/
+   position: relative;
+   width: 100%;
+    height: 407px;
+    background: url('../img/contacto3.jpg') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.bannerc p{
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    width: 15%;
+    /*margin: 0 auto;*/
+    margin-left: 16%;
+    margin-top: 10%;
+    padding: 10px 0px;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+
+.contactform {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4%;
+}
+
+.contenedorformdirec {}
+
+.direcgcp {
+    margin-left: 5%;
+    width: 37%;
+}
+
+#direcgcp2 {
+    color: #505050;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+.direcp {
+    color: #505050;
+    font-size: 18px;
+    margin-top: 0%;
+}
+
+.icon-location-pin,
+.old-phone,
+.icon-mail {
+    font-size: 29px;
+    margin-top: 2%;
+}
+
+#contacto,
+.direcgcp {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contacto {
+    overflow: hidden;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.mapa {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gcpn {
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+}
+
+iframe {
+    width: 100%;
+}
+
+.ema {
+    font-size: 16px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+.emai:focus {
+    border: 2px solid #2DE1CE;
+    outline: 0px;
+    -webkit-box-shadow: -1px 2px 26px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 26px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 26px -4px rgba(0, 0, 0, 0.75);
+}
+
+.emai {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1%;
+    border: 1px solid #ccc;
+    width: 99%;
+    -webkit-box-shadow: inset 0 2px 2px 2px rgba(0, 0, 0, .075);
+    -moz-box-shadow: inset 0 2px 2px 2px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 2px 2px 2px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.sex {
+    font-size: 16px;
+    font-family: helvetica;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+input::-webkit-input-placeholder {
+    color: #747474;
+    padding-left: 5px;
+}
+
+input:-moz-placeholder {
+    color: #747474;
+    padding-left: 5px;
+}
+
+input:-ms-input-placeholder {
+    color: #747474;
+    padding-left: 5px;
+}
+
+.enviar {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #464646;
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 3%;
+    border: 0px;
+    float: right;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #97D4E6;
+    color: #000;
+}
+
+#con {
+    font-family: 'Oswald', sans-serif;
+    color: #505050;
+    line-height: 40px;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 36px;
+}
+
+#te {
+    font-family: 'Oswald', sans-serif;
+    color: #505050;
+    width: 50%;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.der {
+    width: 50%;
+    float: right;
+    padding: 3% 0px 3% 3%;
+}
+
+.izq {
+    width: 43%;
+    padding: 3% 3% 3% 0px;
+    float: left;
+}
+
+#cote {
+    overflow: hidden;
+}
+
+#areac {
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#areac:focus {
+    height: 150px;
+}
+
+#cote2 {}
+
+#enviar2 {
+    margin-top: 3%;
+    width: 30%;
+}

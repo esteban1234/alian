@@ -2,128 +2,348 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-<header class="contenheader">
-  <figure class="imagen pull-left">
-    <img src="../img/conadsur.png" class="img-responsive" alt="">
+<header>
+<figure class="imagen pull-right">
+    <img src="../img/alian.png" class="img-responsive" alt="">
   </figure>
-
-  <article class="pull-right contentextmenu">
-      <article class="menu">
-        <ul>
-          <li><a href="../index.php">INICIO</a></li>
-          <li><a href="nosotros.php">QUIENES SOMOS</a></li>
-          <li class="select"><a href="servicios.php">SERVICIOS</a></li>
-          <li><a href="contacto.php">CONTACTO</a></li>
-        </ul>
-        <div id="pull" class="icon-menu">
-          <i id="icon-abierto" class="fa fa-bars" aria-hidden="true"></i>
-          <i id="icon-cerrado" class="fa fa-times" aria-hidden="true"></i>
-        </div>
-      </article>
-  </article>
+  <!-- <div class="navbar-wrapper hola"> -->
+    <div class="container-fluid ">
+        <nav class="navbar hola">
+            <div class="container">
+                <div class="navbar-header pull-left">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.php" class=""><i class="fa fa-home" aria-hidden="true"></i>&nbsp;INICIO</a></li>
+                        <li><a href="nosotros.php"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;QUIENES SOMOS</a></li>
+                        <li class="active"><a href="servicios.php" class=""><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;SERVICIOS</a></li>
+                        <li><a href="contacto.php"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;CONTACTO</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+<!-- </div> -->
 </header>
+
 <article class="banners">
   <p>SERVICIOS</p>
 </article>
-<h1 class="tit">Nuestros Servicios</h1>
-<hr>
-
-<article class="contenser">
-  <article class="uno">
-    <h2>Turisticos</h2>
-    <figure>
-      <img src="../img/turista.jpg" alt="" class="img-responsive">
-    </figure>
-    <p>Viaja en autobuses de lujo.
-        para viajes de placer.</p>
-  </article>
-
-  <article class="uno">
-    <h2>Empresarial</h2>
-    <figure>
-      <img src="../img/empresa.jpg" alt="" class="img-responsive">
-    </figure>
-    <p>Ideal para congresos, meeting, planners y eventos de fin de año.</p>
-  </article>
-
-  <article class="uno">
-    <h2>Escolar</h2>
-    <figure>
-      <img src="../img/escolar.jpg" alt="" class="img-responsive">
-    </figure>
-    <p>La opción más segura para los paseos escolares y culturales.</p>
-  </article>
-
-
-  <article class="uno">
-    <h2>Particulares</h2>
-    <figure>
-      <img src="../img/particular.jpg" alt="" class="img-responsive">
-    </figure>
-    <p>Para viajes turísticos y paseos familiares.</p>
-  </article>
-
-  <article class="uno">
-    <h2>Eventos</h2>
-    <figure>
-      <img src="../img/eventos.jpg" alt="" class="img-responsive">
-    </figure>
-    <p>Deportivos, religiosos, culturales, etc.</p>
-  </article>
-
-  <article class="uno">
-    <h2>Dependencias</h2>
-    <figure>
-      <img src="../img/dependencias.jpg" alt="" class="img-responsive">
-    </figure>
-    <p>Viajes especiales para instituciones.</p>
-  </article>
-</article>
-
-<article class="opciones">
 <br>
-<h1 class="tit color">Opciones para tus viajes</h1>
-<hr>
+ <h2 class="text-center">Nuestros servicios profesionales incluyen:</h2>
 
-<article class="contenopciones">
-  <div class="dos">
-    <article class="iconoo"><i class="fa fa-bus fa-5x" aria-hidden="true"></i></article>
-    <h2>CITY TOUR</h2>
-    <p>Es la opción para hacer recorridos en una ciudad en específico.</p>
-  </div>
+ <section class="wrapper">
 
-  <div class="dos">
-    <article class="iconoo"><i class="fa fa-refresh fa-5x" aria-hidden="true"></i></article>
-    <h2>VIAJE REDONDO</h2>
-    <p>Se lleva al grupo a su destino y, el día que tienen programado el regreso, los recoge para llevarlos de vuelta al origen del viaje.</p>
-  </div>
+    <div class="container-big">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="vistas/contacto.php">
+                            <img src="img/estrategiafiscal.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> ESTRATEGIA FISCAL
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Son las acciones de orden preventivo que se han organizado en la planeación de los negocios y empresas para lograr que el cumplimiento de las obligaciones tributarias sea oportuno, apegado a la ley y al menor costo alternativo posible.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/derecho.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> DERECHO CORPORATIVO
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    El derecho corporativo es la rama del derecho empresarial que estudia y regula la gran empresa y su incidencia en las ramas del derecho.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/auditoria.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php">AUDITORÍA FINANCIERA
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    La auditoría financiera examina a los estados financieros y a través de ellos las operaciones financieras realizadas por el ente contable, con la finalidad de emitir una opinión técnica y profesional.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-  <div class="dos">
-    <article class="iconoo"><i class="fa fa-car fa-5x" aria-hidden="true"></i></article>
-    <h2>TRANSFERS</h2>
-    <p>Es para servicios locales: aeropuerto-hotel-aeropuerto / origen-destino en la misma zona.</p>
-  </div>
+<section class="wrapper">
 
-  <div class="dos">
-    <article class="iconoo"><i class="fa fa-briefcase fa-5x" aria-hidden="true"></i></article>
-    <h2>SERVICIO CON ESTANCIA</h2>
-    <p>El autobús permanece a disposición del grupo durante el periodo del servicio. Incluye varios trayectos programados previamente.</p>
-  </div>
+    <div class="container-big">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/estrategiafiscal.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> SERVICIOS CONTABLES 
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Los servicios de contabilidad están diseñados para que se constituyan en un verdadero soporte administrativo, sobre el cual el empresario o comerciante pueda realizar netamente su actividad productiva, con la confianza que cuenta con una empresa de especialistas que se encargará de hacer las tareas contables oportunamente y dentro de las disposiciones legales vigentes.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/derecho.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> SUPERVISIÓN FISCAL INTEGRAL 
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Con objeto de verificar la adecuada determinación y cálculo efectuado por sus contadores, contamos con los servicios de supervisión contable y fiscal.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/auditoria.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php">PLANEACIÓN PATRIMONIAL
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    La planeación patrimonial implica la selección de actos adecuados y a la medida de cada persona, que le permitan no solo afrontar las eventualidades previsibles, sino también las imprevistas como una enfermedad súbita, una muerte prematura, y en general las extraordinarias, las que no están bajo su control, que pueden alterar su situación económico-personal.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="wrapper">
 
-  <div class="dos">
-    <article class="iconoo"><i class="fa fa-arrows-h fa-5x" aria-hidden="true"></i></article>
-    <h2>VIAJE CONSECUTIVO</h2>
-    <p>Opción para viajes de ida y vuelta el mismo día.</p>
-  </div>
+    <div class="container-big">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/estrategiafiscal.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> ESTRUCTURAS EXTRATERRITORIALES
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Las empresas extraterritoriales tienen las siguientes características que pueden ser benéficas para sus operaciones: <br>
+• Impuestos <br>
+• Simplicidad y Presentación de informes<br> 
+• La protección jurídica y de la propiedad <br>
+• Tasas <br>
+• Anonimato<br>
+• Subcapitalización <br>
+• Asistencia financiera <br>
+• Los gastos de explotación 
 
-  <div class="dos">
-    <article class="iconoo"><i class="fa fa-reply-all fa-5x" aria-hidden="true"></i></article>
-    <h2>VIAJE SENCILLO</h2>
-    <p>Esta opción de renta de autobús cubre únicamente el trayecto de ida.</p>
-  </div>
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                           <!--  <a class="img-carbox" href="contacto.php">
+                            <img src="img/derecho.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php">LITIGIO FISCAL Y ADMINISTRATIVO
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Nuestra práctica de Litigio Administrativo comprende la representación de nuestros clientes en todo tipo de procedimientos contenciosos relacionados con la actividad del Estado. En esta materia, damos valor a nuestros clientes desde el análisis y presentación de estrategias respecto de proyectos de normatividad, o actos concretos de aplicación de la misma por parte de las autoridades competentes, incluyendo licitaciones, contratación pública, otorgamiento de concesiones, autorizaciones, permisos, licencias y sanciones, entre otros.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/auditoria.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php">AUDITORÍA DE CONTROL INTERNO
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    El control interno en cualquier organización, reviste mucha importancia, tanto en la conducción de la organización, como en el control e información de la operaciones, puesto que permite el manejo adecuado de los bienes, funciones e información de una empresa determinada, con el fin de generar una indicación confiable de su situación y sus operaciones en el mercado; ayuda a que los recursos (humanos, materiales y financieros) disponibles, sean utilizados en forma eficiente, bajo criterios técnicos que permitan asegurar su integridad, su custodia y registro oportuno, en los sistemas respectivos.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="wrapper">
 
-</article>
-</article>
+    <div class="container-big">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/estrategiafiscal.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> AUDITORÍA LEGAL
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    El propósito de las auditorias legales es obtener información sobre la cual se pueda soportar una opinión de la situación del estado legal de una empresa y así mantener informados de manera precisa a los socios o accionistasprecisando las fortalezas y debilidades de la empresa, bajo la aplicación del derecho corporativo en México.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/derecho.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php"> DERECHO NOTARIAL
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    El derecho notarial corporativo es la rama del derecho notarial, público, empresarial y corporativo que estudia y regula la intervención notarial en documentos y actos de grandes empresas.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="carbox">
+                            <!-- <a class="img-carbox" href="contacto.php">
+                            <img src="img/auditoria.jpg" />
+                          </a> -->
+                            <div class="carbox-content">
+                                <h4 class="carbox-title">
+                                    <a href="contacto.php">ADMINISTRACIÓN DE NOMINA
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Se refiere al proceso global de búsqueda, reclutamiento, selección, contratación y administración del personal necesario para operar una organización.
+                                </p>
+                            </div>
+                            <div class="carbox-read-more">
+                                <a href="contacto.php" class="btn btn-link btn-block">
+                                    Contáctanos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

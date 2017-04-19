@@ -190,33 +190,7 @@
         <p class="boton3"><a href="vistas/servicios.php">Contactános</a></p>
     </article>
 
-
-<!-- <footer>
-    <div class="container">
-        <div class="col-md-10 col-md-offset-1 text-center">
-            
-            <h6>Coded with <i class="fa fa-heart red" style="color: #BC0213;"></i> by <a href="http://hashif.com" target="_blank">Hashif</a></h6>
-        </div>   
-    </div>
-</footer> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <p class="boton2"><a href="vistas/contacto.php">Contáctanos</a></p> -->
-
-<!-- <a class="go-top" href="#">Ir arriba</a> -->
+<a class="go-top" href="#">Ir arriba</a>
 <?php include 'vistas/pie.php' ?>
 <script src="js/jquery.js"></script>
 <script src="js/menu.js"></script>
