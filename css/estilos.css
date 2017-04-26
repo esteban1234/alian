@@ -1,5 +1,5 @@
 * {
-    border: 0;
+    /*border: 0;*/
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -35,6 +35,7 @@ header{
   background-color: #97D4E6;
   overflow: hidden;
 }
+
 .imagen{
   width: 10%;
   margin-right: 5%;

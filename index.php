@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+
 <?php include 'vistas/encabezado.php' ?>
 <body>
 
 <header>
-<figure class="imagen pull-right">
-    <img src="img/alian.png" class="img-responsive" alt="">
-  </figure>
+    <figure class="imagen pull-right">
+        <img src="img/alian.png" class="img-responsive" alt="">
+    </figure>
   <!-- <div class="navbar-wrapper hola"> -->
-    <div class="container-fluid ">
+    <div class="container-fluid">
         <nav class="navbar hola">
-            <div class="container">
+            <div class="container cont-menu">
                 <div class="navbar-header pull-left">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>

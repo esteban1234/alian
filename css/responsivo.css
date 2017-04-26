@@ -1,0 +1,610 @@
+@media screen and (max-width: 480px){
+    
+    /**************INICIA MENU****************/
+       header{
+        height: auto;
+    }
+
+    .imagen{
+        
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .imagen img{
+        width: 35%;
+        margin: auto;
+    }
+
+
+    .hola{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .cont-menu{
+        width: 100%;
+    }
+    
+    .navbar a, .dropdown-menu>li>a{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /**************END MENU****************/
+
+    /**************INICIA INDEX****************/
+
+    #first-slider{
+        display: none;
+    }
+
+    .text-center{
+        font-size: 23px;
+    }
+
+    .carbox-title{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .carbox-content p{
+        text-align: justify;
+    }
+
+   
+    .agende h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .agende h3{
+        font-size: 25px;
+        text-align: justify;
+        padding: 5px 15px;
+        margin-bottom: 5%;
+    }
+
+    /**************END INDEX****************/
+
+     /**************INICIA NOSOTROS****************/
+
+    .bannerq p, .banners p, .bannerc p{
+        /*border: 2px solid red;*/
+        width: 80%;
+        margin: 40% auto;
+    }
+
+    .icono, .icono2{
+        font-size: 10px;
+    }
+
+    .cuadros p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .text-center{
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .bannervalores{
+        height: auto;
+    }
+
+    /*.bannervalores .text-font{
+        font-size: 10px;
+    }*/
+    .col-md-3 p{
+        text-align: justify;
+        padding: 10px 0px;
+    }
+
+    /**************END NOSOTROS****************/
+
+    /**************INICIA CONTACTO****************/
+    #con{
+        text-align: center;
+    }
+
+    #te{
+        text-align: justify;
+        width: 90%;
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+
+    #contacto{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .emai{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .izq , .der{
+        margin: 0px;
+        width: 100%;
+        padding: 5% 0px;
+
+    }
+
+    .direcgcp{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #direcgcp2{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    /**************END CONTACTO****************/
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+      /**************INICIA MENU****************/
+       header{
+        height: auto;
+    }
+
+    .imagen{
+        
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .imagen img{
+        width: 35%;
+        margin: auto;
+    }
+
+
+    .hola{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .cont-menu{
+        width: 100%;
+    }
+    
+    .navbar a, .dropdown-menu>li>a{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /**************END MENU****************/
+
+    /**************INICIA INDEX****************/
+
+    .text-center{
+        font-size: 23px;
+    }
+
+    .carbox-title{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .carbox-content p{
+        text-align: justify;
+    }
+
+   
+    .agende h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .agende h3{
+        font-size: 25px;
+        text-align: justify;
+        padding: 5px 15px;
+        margin-bottom: 5%;
+    }
+
+    #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
+    font-size: 20px;
+    }
+
+    #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
+        font-size: 20px;
+    }
+
+    /**************END INDEX****************/
+
+     /**************INICIA NOSOTROS****************/
+
+    .bannerq p, .banners p, .bannerc p{
+        /*border: 2px solid red;*/
+        width: 80%;
+        margin: 30% auto;
+    }
+
+    .icono, .icono2{
+        font-size: 10px;
+    }
+
+    .cuadros p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .text-center{
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .bannervalores{
+        height: auto;
+    }
+
+    /*.bannervalores .text-font{
+        font-size: 10px;
+    }*/
+    .col-md-3 p{
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /**************END NOSOTROS****************/
+
+     /**************INICIA CONTACTO****************/
+    #con{
+        text-align: center;
+    }
+
+    #te{
+        text-align: justify;
+        width: 90%;
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+
+    #contacto{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .emai{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .izq , .der{
+        margin: 0px;
+        width: 100%;
+        padding: 5% 0px;
+
+    }
+
+    .direcgcp{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #direcgcp2{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    /**************END CONTACTO****************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+       /**************INICIA MENU****************/
+       header{
+        height: auto;
+    }
+
+    .imagen{
+        
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .imagen img{
+        width: 35%;
+        margin: auto;
+    }
+
+
+    .hola{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .cont-menu{
+        width: 100%;
+    }
+    
+    .navbar a, .dropdown-menu>li>a{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /**************END MENU****************/
+
+    /**************INICIA INDEX****************/
+
+    .text-center{
+        font-size: 23px;
+    }
+
+    .carbox-title{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .carbox-content p{
+        text-align: justify;
+    }
+
+   
+    .agende h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .agende h3{
+        font-size: 25px;
+        text-align: justify;
+        padding: 5px 15px;
+        margin-bottom: 5%;
+    }
+
+    #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
+    font-size: 20px;
+    }
+
+    #first-slider .slide1 h4,#first-slider .slide2 h4,#first-slider .slide3 h4,#first-slider .slide4 h4{
+        font-size: 20px;
+    }
+
+    /**************END INDEX****************/
+
+    
+     /**************INICIA NOSOTROS****************/
+
+    .bannerq p, .banners p, .bannerc p{
+        /*border: 2px solid red;*/
+        width: 50%;
+        margin: 20% auto;
+    }
+
+    .icono, .icono2{
+        font-size: 10px;
+    }
+
+    .cuadros p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .text-center{
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .bannervalores{
+        height: auto;
+    }
+
+    /*.bannervalores .text-font{
+        font-size: 10px;
+    }*/
+    .col-md-3 p{
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    /**************END NOSOTROS****************/
+
+     /**************INICIA CONTACTO****************/
+    #con{
+        text-align: center;
+    }
+
+    #te{
+        text-align: justify;
+        width: 90%;
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+
+    .contenedorformdirec{
+        text-align: center;
+    }
+
+    #contacto{
+        width: 80%;
+    }
+
+    .emai{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .izq , .der{
+        margin: 0px;
+        width: 100%;
+        padding: 5% 0px;
+
+    }
+
+    .direcgcp{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #direcgcp2{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .direcgcp p{
+        text-align: left;
+    }
+
+    /**************END CONTACTO****************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+         /**************INICIA MENU****************/
+       header{
+        height: auto;
+    }
+
+    .imagen{
+        
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .imagen img{
+        width: 35%;
+        margin: auto;
+    }
+
+
+    .hola{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .cont-menu{
+        width: 100%;
+    }
+    
+    .navbar a, .dropdown-menu>li>a{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /**************END MENU****************/
+
+    /**************INICIA INDEX****************/
+
+    .text-center{
+        font-size: 23px;
+    }
+
+    .carbox-title{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .carbox-content p{
+        text-align: justify;
+    }
+
+   
+    .agende h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /**************END INDEX****************/
+
+
+    /**************INICIA NOSOTROS****************/
+
+    .bannerq p, .banners p, .bannerc p{
+        width: 30%;
+        margin: 20% auto;
+    }
+
+    .cuadros p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .col-md-3 p{
+        text-align: justify;
+        padding: 10px 0px;
+    }
+
+
+     .bannervalores{
+        height: auto;
+    }
+
+    /**************END NOSOTROS****************/
+
+     /**************INICIA CONTACTO****************/
+    #con{
+        text-align: center;
+    }
+
+    #te{
+        text-align: justify;
+        width: 90%;
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
+
+    .emai{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .izq , .der{
+        margin: 0px;
+        width: 100%;
+        padding: 5% 0px;
+
+    }
+
+    #direcgcp2{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .direcgcp p{
+        text-align: left;
+    }
+
+    /**************END CONTACTO****************/
+   
+ 
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+    
+    .hola{
+        width: 70%;
+    }
+
+     .cont-menu{
+        width: 100%;
+    }
+    
+    .navbar a, .dropdown-menu>li>a{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .bannerq p, .banners p, .bannerc p{
+        width: 20%;
+    }
+
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

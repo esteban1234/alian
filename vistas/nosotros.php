@@ -39,7 +39,7 @@
   <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
             <article class="icono"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-user-o fa-stack-1x"></i>
@@ -47,7 +47,7 @@
             <h2 class="text-center">Alianconsultores</h2>
             <p>En Alianconsultores ofrecemos soluciones integrales de acuerdo a sus necesidades, con servicios innovadores y con capacitaciones constantes al personal. En Alianconsultores siempre buscamos la mejor calidad, rentabilidad y confianza en nuestros servicios, para alcanzar siempre la satisfacción total de nuestro cliente./p>
           </div>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
           <article class="icono"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-line-chart fa-stack-1x"></i>
@@ -55,7 +55,7 @@
             <h2 class="text-center">Misión</h2>
             <p>Ser lideres en el sector como un Grupo íntegro que genere información y soluciones confiables para la toma de decisiones y la planeación financiera, contribuyendo al logro de los objetivos de nuestros clientes.</p>
           </div>
-          <div class="col-md-4 cuadros">
+          <div class="col-sm-4 col-md-4 cuadros">
           <article class="icono"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-eye fa-stack-1x"></i>
@@ -70,11 +70,11 @@
 
 <article class="bannervalores">
 <!-- <p class="fondo"> -->
-<h2 class="text-center" style="font-size: 40px;color: #fff;">Valores</h2>
+<h2 class="text-center text-font" style="font-size: 40px;color: #fff;">Valores</h2>
   <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-sm-3 col-md-3">
           <article class="icono2"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-cubes fa-stack-1x"></i>
@@ -82,7 +82,7 @@
             <h2 class="color text-center">Discreción</h2>
             <p style="color: #fff;">Que corresponda a la confianza que se otorga a nuestro trabajo.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-3 col-md-3">
           <article class="icono2"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-star fa-stack-1x"></i>
@@ -90,7 +90,7 @@
             <h2 class="color text-center">Servicio</h2>
             <p style="color: #fff;">Que además de cumplir con nuestro compromiso, implique emplear al máximo nuestras capacidades para sacar adelante lo que nos han confiado.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-3 col-md-3">
           <article class="icono2"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-handshake-o fa-stack-1x"></i>
@@ -98,7 +98,7 @@
             <h2 class="color text-center">Honestidad</h2>
             <p style="color: #fff;">Para actuar siempre apegados a la verdad y respeto hacia nuestros clientes. </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-3 col-md-3">
           <article class="icono2"><span class="fa-stack fa-5x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-check fa-stack-1x"></i>

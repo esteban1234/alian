@@ -6,10 +6,10 @@ $mail = new PHPMailer();
 
 // Recoger los valores del Formulario
 
-$nombre = $_POST['nombre'];
-$telefono = $_POST['telefono'];
-$correo = $_POST['correo'];
-$comentario = $_POST['comentario'];
+$nombre = $_POST['txtnombre']. ' ' .$_POST['txtapellido'] ;
+$telefono = $_POST['txttelefono'];
+$correo = $_POST['txtcorreo'];
+$comentario = $_POST['txtcomentario'];
 
 $mail->CharSet = 'utf-8';
 //From email address and name
@@ -17,7 +17,8 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("info@alianconsultores.com");
+// $mail->addAddress("info@alianconsultores.com");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 $mail->isHTML(true);
 

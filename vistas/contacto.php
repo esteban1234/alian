@@ -45,31 +45,30 @@
     <article class="contenedorformdirec">
     <form id="contacto" action="envia.php" method="POST">
     <label class="ema">Nombre (s):</label><br>
-    <input class="emai" type="text" name="nombre" size="60" maxlength="40" placeholder="Nombre completo" required/><br><br><br>
+    <input class="emai" type="text" name="txtnombre" size="60" maxlength="40" placeholder="Nombre completo" required/><br><br><br>
 
     <label class="ema">Apellidos:</label><br>
-    <input class="emai" type="text" name="apellido" size="60" maxlength="40" placeholder="Apellidos" required/><br><br>
+    <input class="emai" type="text" name="txtapellido" size="60" maxlength="40" placeholder="Apellidos" required/><br><br>
 
     <div id="cote">
         <div class="izq">
             <label class="ema">Correo electronico:</label><br>
-            <input class="emai" type="email" name="correo" size="30" maxlength="40" placeholder= "ejemplo@correo.com" required/>
-
+            <input class="emai" type="email" name="txtcorreo" size="30" maxlength="40" placeholder= "ejemplo@correo.com" required/>
         </div>
         <div class="der">
            <label class="ema">Teléfono:</label><br>
-           <input class="emai" type="text" name="tel" size="30" maxlength="10"  placeholder="Numero Telefónico" required/>
+           <input class="emai" type="text" name="txttelefono" size="30" maxlength="10"  placeholder="Numero Telefónico" required/>
         </div>
     </div> <br>
 
     <label class="ema">Escríbenos tu comentario:</label><br>
-    <textarea id="areac" class="emai"  name="textarea" rows="" cols="" placeholder="Escríbenos tus comentarios" required/></textarea><br>
+    <textarea id="areac" class="emai"  name="txtcomentario" rows="" cols="" placeholder="Escríbenos tus comentarios" required/></textarea><br>
      <input  id="enviar2" class="enviar" type="submit" value="ENVIAR">
     </form>
 
     <article class="direcgcp">
         <h3 id="direcgcp2">Alianconsultores.</h3>
-            <p class="direcp">Teléfono;&nbsp;Pendiente</p>
+            <p class="direcp">Teléfono:&nbsp;Pendiente</p>
             <p class="direcp">Correo:&nbsp;info@alianconsultores.com</p>
             <p class="direcp">Horario: Lun-Vie de 9 am a 6 pm</p>
     </article>

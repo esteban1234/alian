@@ -44,7 +44,7 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="carbox">
                             <!-- <a class="img-carbox" href="vistas/contacto.php">
                             <img src="img/estrategiafiscal.jpg" />
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="carbox">
                             <!-- <a class="img-carbox" href="contacto.php">
                             <img src="img/derecho.jpg" />
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="carbox">
                             <!-- <a class="img-carbox" href="contacto.php">
                             <img src="img/auditoria.jpg" />
@@ -119,7 +119,7 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="carbox">
                             <!-- <a class="img-carbox" href="contacto.php">
                             <img src="img/estrategiafiscal.jpg" />
@@ -140,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="carbox">
                             <!-- <a class="img-carbox" href="contacto.php">
                             <img src="img/derecho.jpg" />
@@ -161,7 +161,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
                         <div class="carbox">
                             <!-- <a class="img-carbox" href="contacto.php">
                             <img src="img/auditoria.jpg" />
