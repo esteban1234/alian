@@ -14,8 +14,8 @@
   	<link rel="stylesheet" href="css/iconos.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+<!--<link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">-->
 </head>
 
 

@@ -147,6 +147,14 @@
 
     /**************END CONTACTO****************/
 
+    footer{
+        width: 100%;
+    }
+
+    footer p{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
@@ -300,6 +308,14 @@
     }
 
     /**************END CONTACTO****************/
+
+    footer{
+        width: 100%;
+    }
+
+    footer p{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
@@ -461,6 +477,14 @@
     }
 
     /**************END CONTACTO****************/
+
+    footer{
+        width: 100%;
+    }
+
+    footer p{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
@@ -582,7 +606,13 @@
 
     /**************END CONTACTO****************/
    
- 
+    footer{
+        width: 100%;
+    }
+
+    footer p{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
