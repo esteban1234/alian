@@ -153,7 +153,6 @@
 
     footer p{
         width: 100%;
-        border: 2px solid red;
         font-size: 25px;
     }
 
@@ -317,7 +316,6 @@
 
     footer p{
         width: 100%;
-        border: 2px solid red;
         font-size: 25px;
     }
 }
