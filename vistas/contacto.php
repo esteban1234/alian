@@ -53,7 +53,7 @@
     <div id="cote">
         <div class="izq">
             <label class="ema">Correo electronico:</label><br>
-            <input class="emai" type="email" name="txtcorreo" size="30" maxlength="40" placeholder= "ejemplo@correo.com" required/>
+            <input class="emai" type="email" name="txtcorreo" size="30" maxlength="40" placeholder= "info@alianconsultores.com" required/>
         </div>
         <div class="der">
            <label class="ema">Teléfono:</label><br>
