@@ -187,7 +187,7 @@
 <article class="agende">
         <h2>Agende una Consulta</h2>
         <h3>Complete el formulario y déjenos saber cómo lo podemos ayudar.</h3>
-        <p class="boton3"><a href="vistas/servicios.php">Contactános</a></p>
+        <p class="boton3"><a href="vistas/contacto.php">Contactános</a></p>
     </article>
 
 <a class="go-top" href="#">Ir arriba</a>
